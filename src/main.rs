@@ -10,7 +10,7 @@ struct Record {
     city: String,
     region: String,
     country: String,
-    population: u128,
+    population: Option<u128>,
     over65s: i128,
 }
 
@@ -30,7 +30,7 @@ fn example() -> Result<(), Box<Error>> {
         city: "Southborough".to_string(),
         region: "MA".to_string(),
         country: "United States".to_string(),
-        population: 340_282_366_920_938_463_463_374_607_431_768_211_455,
+        population: Some(340_282_366_920_938_463_463_374_607_431_768_211_455),
         over65s: 9_223_372_036_854_775_808,
     })?;
     wtr.flush()?;

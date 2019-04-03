@@ -1,16 +1,16 @@
 [[package]]
 name = "csv"
 version = "1.0.5"
-source = "git+https://github.com/ian-hamlin/rust-csv#216962892ec8ea9f8df2440eb58e6e6b94b17157"
+source = "git+https://github.com/ian-hamlin/rust-csv?rev=9ef099dcd48e454613cd30e0ea8db514905cba92#9ef099dcd48e454613cd30e0ea8db514905cba92"
 dependencies = [
- "csv-core 0.1.5 (git+https://github.com/ian-hamlin/rust-csv)",
+ "csv-core 0.1.5 (git+https://github.com/ian-hamlin/rust-csv?rev=9ef099dcd48e454613cd30e0ea8db514905cba92)",
  "serde 1.0.90 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "csv-core"
 version = "0.1.5"
-source = "git+https://github.com/ian-hamlin/rust-csv#216962892ec8ea9f8df2440eb58e6e6b94b17157"
+source = "git+https://github.com/ian-hamlin/rust-csv?rev=9ef099dcd48e454613cd30e0ea8db514905cba92#9ef099dcd48e454613cd30e0ea8db514905cba92"
 dependencies = [
  "memchr 2.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -48,7 +48,7 @@ dependencies = [
 name = "rust-csv-128"
 version = "0.1.0"
 dependencies = [
- "csv 1.0.5 (git+https://github.com/ian-hamlin/rust-csv)",
+ "csv 1.0.5 (git+https://github.com/ian-hamlin/rust-csv?rev=9ef099dcd48e454613cd30e0ea8db514905cba92)",
  "serde 1.0.90 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.90 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -84,8 +84,8 @@ version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum csv 1.0.5 (git+https://github.com/ian-hamlin/rust-csv)" = "<none>"
-"checksum csv-core 0.1.5 (git+https://github.com/ian-hamlin/rust-csv)" = "<none>"
+"checksum csv 1.0.5 (git+https://github.com/ian-hamlin/rust-csv?rev=9ef099dcd48e454613cd30e0ea8db514905cba92)" = "<none>"
+"checksum csv-core 0.1.5 (git+https://github.com/ian-hamlin/rust-csv?rev=9ef099dcd48e454613cd30e0ea8db514905cba92)" = "<none>"
 "checksum libc 0.2.51 (registry+https://github.com/rust-lang/crates.io-index)" = "bedcc7a809076656486ffe045abeeac163da1b558e963a31e29fbfbeba916917"
 "checksum memchr 2.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "2efc7bc57c883d4a4d6e3246905283d8dae951bb3bd32f49d6ef297f546e1c39"
 "checksum proc-macro2 0.4.27 (registry+https://github.com/rust-lang/crates.io-index)" = "4d317f9caece796be1980837fd5cb3dfec5613ebdb04ad0956deea83ce168915"
